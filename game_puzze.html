@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <table>
+    <table onclick="kq()">
         <tr>
             <th><a onclick="hinh1()"><img name="img" id="h1" src="monkey_5.jpg"></a></th>
         </tr>
@@ -32,7 +32,7 @@
                     a=1;
                     break;
                 case 2:
-                    document.getElementById("hi").src = "monkey_2.jpg";
+                    document.getElementById("h1").src = "monkey_2.jpg";
                     a=2;
                     break;
                 case 3:
@@ -48,6 +48,7 @@
                     document.getElementById("h1").src = "monkey_5.jpg";
                     break;
             }
+            if(a==1&&b==2&&c==3&&d==4&e==5){alert("chúc mừng bạn đã xếp chính xác")}
         }
         function hinh2(){
             let ran = Math.floor(Math.random() * 5) + 1;
@@ -73,6 +74,7 @@
                     document.getElementById("h2").src = "monkey_5.jpg";
                     break;
             }
+            if(a==1&&b==2&&c==3&&d==4&e==5){alert("chúc mừng bạn đã xếp chính xác")}
         }
         function hinh3(){
             let ran = Math.floor(Math.random() * 5) + 1;
@@ -98,6 +100,7 @@
                     c=5;
                     break;
             }
+            if(a==1&&b==2&&c==3&&d==4&e==5){alert("chúc mừng bạn đã xếp chính xác")}
         }
         function hinh4(){
             let ran = Math.floor(Math.random() * 5) + 1;
@@ -123,6 +126,7 @@
                     d=5;
                     break;
             }
+            if(a==1&&b==2&&c==3&&d==4&e==5){alert("chúc mừng bạn đã xếp chính xác")}
         }
         function hinh5(){
             let ran = Math.floor(Math.random() * 5) + 1;
@@ -148,7 +152,8 @@
                     e=5;
                     break;
             }
-        } 
+            if(a==1&&b==2&&c==3&&d==4&e==5){alert("chúc mừng bạn đã xếp chính xác")}
+        }  
     </script>
 </body>
 </html>
